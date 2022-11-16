@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #D9D4D4;
+  font-family: "Arial";
+  color: #323131;
+  opacity: 0.9;
+
+}
+/* Flex universal */
+.container {
+  display: flex;
+}
+/* Nav Section */
+
+nav {
+  min-height: 47px;
+  position: sticky;
+  top: 0;
+  background-color: #D9D4D4;
+  
+}
+.searchbar {
+  display: flex;
+  align-content: center;
+  height: 40px;
+  width: 350px;
+}
+#search {
+  width: 350px;
+  margin-left: 5px;
+}
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-link-container {
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-solid {
+  padding: 10px;
+}
+.logosearch {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  height: 30px;
+  width: auto;
+  margin-top: 5px;
+}
+
+.navbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar .searchbar button {
+  display: flex;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  color: #D9D4D4;
+  background: #323131;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: rgb(243, 247, 196);
+  text-decoration:  overline;
+}
+.nav-link:visited {
+    color: #323131;
+    
+}
+/* Header Section */
+.pageheader {
+  background: no-repeat url(https://live.staticflickr.com/65535/52501815007_2e759b44aa_o.jpg);
+  background-position: center;
+  background-size: 1904px;
+  height: 700px;
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* Main Content */
+.main {
+  margin: 20px 80px;
+}
+.collections {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.collect_header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#titletext {
+  font-size: 40px;
+  text-align: center;
+}
+.main_content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 300px;
+  width: 450px;
+  margin: 10px;
+}
+.category a {
+  
+  width:450px;
+  font-size: 32px;
+  font-weight:bold;
+  color: #d9d4d4;
+  text-shadow:1px 3px 3px black;
+  text-align: center;
+  text-decoration: none;
+}
+
+#fifthgen {
+  background-image: url(https://trail4runner.com/wp-content/uploads/2022/07/FF-TRD_OR21.jpg);
+  background-size: 450px;
+}
+#threegtaco {
+  background-image: url(https://cdn.shopify.com/s/files/1/0351/6245/6195/products/lake-tahoe-35_ddbb5685-fbb9-438c-8871-26f55cafe57a_2000x.jpg?v=1659052955);
+  background-size: 450px;
+}
+#threegtundra {
+  background-image: url(https://cdn.shopify.com/s/files/1/0351/6245/6195/articles/unnamed_5fbc3230-d84f-449e-88c6-6bd1f0cea4ee_3000x.jpg?v=1646893565);
+  background-size: 450px;
+}
+#fivegrav {
+  background-image: url(https://i.pinimg.com/originals/30/ca/a5/30caa554949919f69672bb7fec526960.jpg);
+  background-size: 450px;
+}
+#twogtaco {
+  background-image: url(https://cdn.shopify.com/s/files/1/0246/6054/1489/products/DSC03335_2048x.jpg?v=1620660251);
+  background-size: 450px;
+}
+#twogtundra {
+  background-image: url(https://i.pinimg.com/originals/06/98/8a/06988a25074c4242fd1cbd1b7a6cfdcc.jpg);
+  background-size: 450px;
+}
+
